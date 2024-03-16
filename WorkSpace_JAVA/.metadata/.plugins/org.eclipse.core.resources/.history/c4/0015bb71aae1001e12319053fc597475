@@ -1,0 +1,10 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		System.out.print("테니스 테테니스 테니스 테테테테니스 테 테 테 니 스");
+
+	}
+
+}
