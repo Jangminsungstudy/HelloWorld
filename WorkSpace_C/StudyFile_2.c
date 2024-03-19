@@ -3,7 +3,7 @@
 
 int main(void)
 {
-    /*//증감연산
+    //증감연산
     int a = 10;
     printf("%d\n", a);
     a++;
@@ -44,25 +44,5 @@ int main(void)
             printf(" 두 번째 반복문 : %d\n", j);
         }
     }
-    //2중 반복문을 활용한 구구단 프로그램 만들기
-    for (int i = 1; i <= 9; i++)
-    {
-        for(int j = 1; j <= 9; j++)
-        {
-            printf("%d * %d = %d\n", i, j, i*j);
-        }
-    }*/
-    //이중 반복문을 이용한 별 트리 만들기.
-    for (int i = 0; i < 5; i++)
-    {
-        for (int j = 0; j <= i; j++)
-        {
-            printf("*");
-        }
-        printf("\n");
-    } 
-    // i  : 0 1  2   3    4
-    // j  : 0 01 012 0123 01234
-    // 출력: *ㅣ**ㅣ***ㅣ****ㅣ*****
     return 0;
 }
