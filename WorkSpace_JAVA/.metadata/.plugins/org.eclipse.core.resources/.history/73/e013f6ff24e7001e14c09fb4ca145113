@@ -1,0 +1,10 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		System.out.print("집에 보내주시면 안될까요");//메소드 : 다른 함수에서는 함수라명칭. 
+
+	}
+
+}
