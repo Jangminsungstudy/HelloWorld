@@ -1,7 +1,7 @@
 #include <cstdio>
 #include <cstdlib>
 
-inline void error(char *message)
+inline void error(const char *message)
 {
     printf("%s\n", message);
     exit(1);
