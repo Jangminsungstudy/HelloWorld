@@ -1,2 +1,12 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
 
-    char str[256];
+int main(void)
+{
+    for(i=1;i<5;i++);
+        for(j=1;j=<i;j++);
+            printf("*");
+    printf("\n");
+
+    return 0;
+} 
