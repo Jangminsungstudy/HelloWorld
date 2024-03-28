@@ -1,17 +1,18 @@
-print(10 > 3) #T 크다.
-print(10 < 3) #F 작다.
-print(10 >= 3) #T 크거나 같다.
-print(10 <= 3) #F 작거나 같다.
-print(10 != 10) #F 같지 않다.
-print(10 == 10) #T 같다.
+from random import * # random 라이브러리 불러오기
 
-print(not(1 != 3)) #값을 반대로 출력. T이지만 not 수식에 의해 False 출력
+print(random()) # 0.0 ~ 1.0 미만의 임의의 값 생성
+print(random() * 10) # 0.0 ~ 10.0 미만의 임의의 값 생성
+print(int(random() * 10)) # 0 ~ 10 미만의 임의의 값 생성
+print(int(random() * 10)) # 0 ~ 10 미만의 임의의 값 생성
+print(int(random() * 10)) # 0 ~ 10 미만의 임의의 값 생성
+print(int(random() * 10) + 1) # 1 ~ 10 이하의 임의의 값 생성
 
-print((3 > 0) and (3 < 5)) #T 그리고 연산자
-print((3 >0) & (3 < 5))# &은 and와 의미가 같다.
+#로또 번호
+print(int(random() * 45) + 1) # 1 ~ 45 이하의 임의의 값 생성
 
-print((3 > 0) or (3 > 5))# T 또는 연산자
-print((3 > 0) | (3 > 5))# |은 or과 의미가 같다.
-
-print(5 > 4 > 3) #T 연속으로 연산 가능.
-print(5 > 4 > 7) #F 
+print(randrange(1, 46)) # 1 ~ 46 미만의 임의의 값 생성
+print(randrange(1, 46)) # 1 ~ 46 미만의 임의의 값 생성
+print(randrange(1, 46)) # 1 ~ 46 미만의 임의의 값 생성
+print(randrange(1, 46)) # 1 ~ 46 미만의 임의의 값 생성
+print(randrange(1, 46)) # 1 ~ 46 미만의 임의의 값 생성
+print(randrange(1, 46)) # 1 ~ 46 미만의 임의의 값 생성

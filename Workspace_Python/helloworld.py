@@ -65,3 +65,55 @@ print((3 > 0) | (3 > 5))# |은 or과 의미가 같다.
 
 print(5 > 4 > 3) #T 연속으로 연산 가능.
 print(5 > 4 > 7) #F 
+
+print(2 + 3 * 4) #14
+print((2 + 3) * 4) #20
+number = 2 + 3 * 4 #14
+print(number)
+number = number + 2 #16
+print(number)
+number += 2
+print(number)
+number *= 2 #36
+print(number)
+number /= 2 #18
+print(number)
+number -= 2 #16
+print(number)
+
+number %= 5 # 1 .. 나머지 출력
+print(number)
+
+
+#숫자처리함수
+print(abs(-5)) # 5 절댓값. absolute
+print(pow(4, 2)) # 4^2 = 16 거듭제곱
+print(max(5, 12)) # 12 최댓값
+print(min(5, 12)) # 5 최솟값
+print(round(3.14)) # 3 반올림
+print(round(4.99)) # 5 반올림
+
+from math import * # math 라이브러리 불러오기
+print(floor(4.99)) # 내림, 4
+print(ceil(3.14)) # 올림, 4
+print(sqrt(16)) # 제곱근, 4
+
+from random import * # random 라이브러리 불러오기
+
+print(random()) # 0.0 ~ 1.0 미만의 임의의 값 생성
+print(random() * 10) # 0.0 ~ 10.0 미만의 임의의 값 생성
+print(int(random() * 10)) # 0 ~ 10 미만의 임의의 값 생성
+print(int(random() * 10)) # 0 ~ 10 미만의 임의의 값 생성
+print(int(random() * 10)) # 0 ~ 10 미만의 임의의 값 생성
+print(int(random() * 10) + 1) # 1 ~ 10 이하의 임의의 값 생성
+
+#로또 번호
+print(int(random() * 45) + 1) # 1 ~ 45 이하의 임의의 값 생성
+
+print(randrange(1, 46)) # 1 ~ 46 미만의 임의의 값 생성
+
+print(randint(1, 45)) # 1 ~ 45 이하의 임의의 값 생성
+
+#위 세 함수 모두 의미하는 바는 같으니, 사용해보고 더 편한 것으로 이용
+
+print("오프라인 스터디 모임 날짜는 매월 ", randint(4, 28) ,"일로 선정되었습니다.")
